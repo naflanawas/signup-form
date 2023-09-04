@@ -1,3 +1,144 @@
-<style>
+ @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
 
-</style>
+
+
+@font-face {
+    font-family: Norse;
+    font-weight: bold;
+    src: url('./assets/Norse-Bold.otf');
+} 
+
+:root {
+    font-family: 'Roboto', sans-serif;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+body {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+}
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    height: 700px;
+    max-width: 90%;
+    border-radius: 16px;
+    box-shadow: 0 0 15px 2px #DDD;
+    overflow: hidden;
+}
+
+.hero-image {
+    background-image: url(/signup-form/assets/background.jpg);
+    height: 100%;
+    width: 35%;
+}
+
+.logo-bar {
+    margin-top: 40%;
+    background: rgba(23, 21, 21, 0.5);
+    height: 150px;
+    padding: 16px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 255, 255);
+    font-family: Norse;
+    font-size: 48px;
+}
+
+.logo-bar img {
+    max-height: 100%;
+}
+
+main {
+    height: 100%;
+    max-width: 65%;
+    background-color: #FAFAFA;
+}
+
+.description {
+    padding: 48px 32px;
+    display: flex;
+    flex-direction: column;
+    height: 35%;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+    width: 90%;
+}
+
+form {
+    height: 77%;
+}
+
+.form-container {
+    background-color: #ffffff;
+    padding: 32px 32px;
+    box-shadow: 0px 3px 5px -2px rgba(0, 0, 0, .5);
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 48px;
+}
+
+.form-container p {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+fieldset {
+    border: none;
+    display: flex;
+    gap: 48px;
+}
+
+.form-cell {
+    display: flex;
+    flex-direction: column;
+    text-transform: uppercase;
+    width: 35%;
+}
+
+.form-cell label {
+    font-size: 12px;
+    font-weight: 500;
+}
+
+form input {
+    border: 1px solid #D6D9DC;
+    border-radius: 4px;
+    padding: 7px;
+    font-size: 14px;
+}
+
+.button-area {
+    padding-left: 32px;
+}
+
+.button-area a {
+    color: #596D48;
+    text-decoration: none;
+}
+
+button {
+    background-color: #596D48;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 40px;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 32px;
+}
