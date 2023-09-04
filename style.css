@@ -38,7 +38,7 @@ body {
     overflow: hidden;
 }
 
-.hero-image {
+.image {
     background-image: url(/signup-form/assets/background.jpg);
     height: 100%;
     width: 35%;
